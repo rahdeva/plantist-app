@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textSize="24sp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/kristen_itc"
+            android:text="@string/about_me" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="24dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/profile_picture"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:textSize="18sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_mediummm"
+            android:text="@string/my_name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16sp"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/my_email" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_callme"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitXY"
+            android:src="@drawable/callme"/>
+
+        <ImageButton
+            android:id="@+id/imgbtn_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitXY"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/sendfeedback"/>
+
+        <ImageButton
+            android:id="@+id/imgbtn_aboutapp"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutapp"/>
+
+    </LinearLayout>
+
+</ScrollView>

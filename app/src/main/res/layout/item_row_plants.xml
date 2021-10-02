@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:scaleType="fitXY"
+        app:shapeAppearanceOverlay="@style/RoundedRectangle"
+        android:src="@color/green"  />
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="@font/montserrat_mediummm"
+        android:textColor="@color/grey"
+        tools:text="@string/plants_name" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_gravity="end"
+            android:id="@+id/imgbtn_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="screen"
+            android:src="@drawable/ic_favorite"
+            app:tint="@color/green" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <ImageButton
+            android:id="@+id/imgbtn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="24dp"
+            android:backgroundTintMode="screen"
+            android:src="@drawable/share"
+            app:tint="@color/green" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

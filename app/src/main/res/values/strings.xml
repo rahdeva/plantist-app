@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Plantist</string>
+    <string name="plants_name">Nama Tanaman</string>
+    <string name="plants_detail">Detail Tanaman</string>
+    <string name="plants_description">Deskripsi Tanaman</string>
+    <string name="plants_info_water">Info Water</string>
+    <string name="plants_info_illumination">Info Illumination</string>
+    <string name="plants_info_temperature">Info Temperature</string>
+    <string name="plants_info_fertilizer">Info Fertilizer</string>
+    <string name="plants_list">Plants (List)</string>
+    <string name="plants_grid">Plants (Grid)</string>
+    <string name="plants_card">Plants (Card)</string>
+    <string name="about_me">About me</string>
+    <string name="my_name">Rah Deva</string>
+    <string name="my_email">Android Developer (soon)</string>
+    <string name="call_me">Call Me</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="about_application">About Application</string>
+    <string name="favourites">Favourites</string>
+    <string name="imgbtn_list_view">imgbtn_list_view</string>
+    <string name="plantist_about">Plantist</string>
+    <string name="version">Version 1.0</string>
+    <string name="description">Description</string>
+    <string name="water">Water</string>
+    <string name="illumination">Illumination</string>
+    <string name="fertilizer">Fertilizer</string>
+    <string name="temperature">Temperature</string>
+    <string name="copyright">Copyright © 2021 A-Dev Team (Me)</string>
+    <string name="note_app">Note : Belum jadi :).</string>
+
+</resources>
